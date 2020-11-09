@@ -3,6 +3,8 @@
 ## Links
 Repository: [https://github.com/jdmarty/READMEGenerator](https://github.com/jdmarty/READMEGenerator)
 
+![README Generator screenshot](https://github.com/jdmarty/READMEGenerator/blob/main/assets/terminal.PNG)
+
 ## Description
 
 This command line application uses the inquirer npm library to create a series of prompts. The responses to these prompts will be used to generate a basic README file with a professional format.
