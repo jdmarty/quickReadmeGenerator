@@ -1,6 +1,6 @@
 
 
-//function to list items
+//function to render list items
 function renderList(obj, type) {
   if (Object.keys(obj).length <2) {
     return obj[Object.keys(obj)[0]]
@@ -36,13 +36,10 @@ ${base.description}
 - [Questions](#questions)
 
 ## Installation
-${renderList(install, 'ol')}
+${renderList(install, "ol")}
 
 ## Usage
 ${renderList(usage)}
-
-## License
-This project uses the ${base.license}
 
 ## Contribution
 ${base.contribution}
@@ -51,8 +48,14 @@ ${base.contribution}
 ${base.tests}
 
 ## Questions
-[Creator Github profile](https://github.com/${base.questionsGithub})
-Creator Email: ${base.questionsEmail}`;
+
+Github: [Creator Github profile](https://github.com/${base.questionsGithub})
+
+Email: ${base.questionsEmail}
+
+## License
+This project uses the ${base.license}`;
+
 }
 
 module.exports = generateMarkdown;
