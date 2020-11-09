@@ -8,7 +8,7 @@ function renderList(obj, type) {
     //and return a raw string if so
     return obj[Object.keys(obj)[0]]
   }
-  let listString = '';
+  let listString = ``;
   let count = 1;
   //loop across the entire object
   for (let key in obj) {
@@ -42,28 +42,34 @@ ${base.description}
 - [Questions](#questions)
 
 ## Installation
+
 ${renderList(install, "ol")}
 
 ## Usage
+
 ${renderList(usage)}
 
 ## Contribution
+
 ${base.contribution}
 
 ## Tests
+
 ${base.tests}
 
 ## Credits
+
 ${renderList(credits)}
 
 ## Questions
 
-Github: [Creator Github profile](https://github.com/${base.questionsGithub})
+Github: [https://github.com/${base.questionsGithub}](https://github.com/${base.questionsGithub})
 
 Email: ${base.questionsEmail}
 
 ## License
-This project uses the ${base.license}`;
+
+This project uses the ${base.license} license`;
 
 }
 
