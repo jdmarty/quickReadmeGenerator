@@ -1,3 +1,24 @@
+# Simple README Generator
+
+## Description
+
+This command line application uses the inquirer npm library to create a series of prompts. The responses to these prompts will be used to generate a basic README file with a professional format.
+
+## Installation
+
+1. Clone or fork the github repository for this project [https://github.com/jdmarty/READMEGenerator](https://github.com/jdmarty/READMEGenerator)
+2. Open a command line terminal in the cloned repository
+3. Run "npm install" in the terminal to install the required dependencies
+4. Run "node index.js" in the terminal to initiate the app
+
+## How to Use
+
+When this app is initialized, you will be greeted with a series of prompts. The answers you give to these prompts will be used to generate a markdown file with basic headers.
+
+1. Answer  
+
+
+
 # 09 Node.js Homework: Professional README Generator
 
 ## Your Task

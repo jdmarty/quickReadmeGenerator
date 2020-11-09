@@ -3,10 +3,14 @@ const badges = require('./badges')
 
 //function to render list items
 function renderList(obj, type) {
-  //check if there are less than two steps
-  if (Object.keys(obj).length <2) {
+  //check if there is only one step
+  if (Object.keys(obj).length === 1) {
     //and return a raw string if so
     return obj[Object.keys(obj)[0]]
+  //check if there are no steps
+  } else if (Object.keys(obj).length < 1) {
+    //return an empty string
+    return ''
   }
   let listString = ``;
   let count = 1;
