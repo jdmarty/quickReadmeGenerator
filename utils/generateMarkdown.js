@@ -22,7 +22,7 @@ function renderList(obj, type) {
 }
 
 // function to generate markdown for README
-function generateMarkdown(base, install, usage) {
+function generateMarkdown(base, install, usage, credits) {
   return `# ${base.title}
 
 ${badges[base.license]}
@@ -38,6 +38,7 @@ ${base.description}
 - [License](#license)
 - [Contribution](#contribution)
 - [Tests](#tests)
+- [Credits](#credits)
 - [Questions](#questions)
 
 ## Installation
@@ -51,6 +52,9 @@ ${base.contribution}
 
 ## Tests
 ${base.tests}
+
+## Credits
+${renderList(credits)}
 
 ## Questions
 

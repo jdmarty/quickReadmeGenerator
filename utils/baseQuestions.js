@@ -3,7 +3,8 @@ const baseQuestions = [
   {
     type: "input",
     name: "title",
-    message: "What is the title of this README?",
+    message: "What is the title of this project?",
+    default: "NewApp"
   },
   {
     type: "list",
@@ -72,6 +73,12 @@ const baseQuestions = [
     name: "questionsEmail",
     message: "What is your email address?",
   },
+  {
+    type: "number",
+    name: "credits",
+    message: "How many contributors would you like to credit in this readme?",
+    default: 1
+  }
 ];
 
 module.exports = baseQuestions
