@@ -1,13 +1,18 @@
-
+//required local utilities
+const badges = require('./badges')
 
 //function to render list items
 function renderList(obj, type) {
+  //check if there are less than two steps
   if (Object.keys(obj).length <2) {
+    //and return a raw string if so
     return obj[Object.keys(obj)[0]]
   }
   let listString = '';
   let count = 1;
+  //loop across the entire object
   for (let key in obj) {
+    //generate list items based on desired list type
     type === 'ol'
       ? (listString += `${count}. ${obj[key]}\n`)
       : (listString += `- ${obj[key]}\n`);
@@ -20,7 +25,7 @@ function renderList(obj, type) {
 function generateMarkdown(base, install, usage) {
   return `# ${base.title}
 
-{license badge}
+${badges[base.license]}
 
 ## Description
 
