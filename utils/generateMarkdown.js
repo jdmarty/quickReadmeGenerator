@@ -67,8 +67,10 @@ ${renderList(credits)}
 
 ## Questions
 
+For questions or comments, contact me on GitHub
 Github: [https://github.com/${base.questionsGithub}](https://github.com/${base.questionsGithub})
 
+Or send me an email
 Email: ${base.questionsEmail}
 
 ## License
