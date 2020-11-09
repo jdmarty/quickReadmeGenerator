@@ -58,12 +58,12 @@ const baseQuestions = [
     },
         {
         type: 'input',
-        name: 'includeTests',
+        name: 'tests',
         message: 'What are the test instructions for this application?'
     },
     {
         type: 'input',
-        name: 'contributing',
+        name: 'contribution',
         message: 'What are the contributing guidelines for this application?'
     },
     {
@@ -95,6 +95,7 @@ function createSteps(num, type) {
 function writeToFile(fileName, data) {
     fs.writeFile(fileName, data, err => {
         if (err) throw err
+        console.log('README Generated!')
     })
 }
 
@@ -106,7 +107,6 @@ async function init() {
         .prompt(createSteps(base.installSteps, 'install'))
     const usage = await inquirer
         .prompt(createSteps(base.usageSteps, 'usage'))
-        .then(res => console.log(res))
     const data = generateMarkdown(base, install, usage)
     const fileName = `${base.title.trim().split(' ').join('')}_README.md`
     writeToFile(fileName, data)
