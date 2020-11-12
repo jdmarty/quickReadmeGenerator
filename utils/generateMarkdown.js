@@ -60,7 +60,7 @@ ${base.contribution}
 ## Tests
 
 ${base.tests}
-added
+
 ## Credits
 
 ${renderList(credits)}
