@@ -31,6 +31,7 @@ function writeToFile(fileName, data) {
 
 // function to initialize program
 async function init() {
+    console.log("\x1b[36m",'Welcome to Quick Readme Generator!\n Answer each question to generate a professionally formatted README.md\n')
     //wait for the base object to generate
     const base = await inquirer
         .prompt(baseQuestions)
