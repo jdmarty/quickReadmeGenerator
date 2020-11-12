@@ -1,4 +1,4 @@
-# Simple README Generator
+# Quick README Generator
 
 ## Links
 Repository: [https://github.com/jdmarty/READMEGenerator](https://github.com/jdmarty/READMEGenerator)
