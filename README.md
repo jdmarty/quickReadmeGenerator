@@ -34,7 +34,7 @@ When this app is initialized, you will be greeted with a series of prompts. The 
 10. Enter the number of contributors that you would like to credit
 11. Once you have completed these steps, you will be prompted to fill out the number of sections that you described in steps 4, 5, and 10
 
-Once you answer all the prompts, a new README file will be generated in the root directory of the app. The name of this filed will be <project name>_README.md
+Once you answer all the prompts, a new README file will be generated in the root directory of the app. The name of this filed will be "projectname"_README.md
 
 
 -------------------------------------------------------
