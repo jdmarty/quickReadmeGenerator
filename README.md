@@ -18,6 +18,8 @@ This command line application uses the inquirer npm library to create a series o
 
 ## How to Use
 
+[Instructional Video](https://drive.google.com/file/d/1ltOuZ-gZ3VnmQ2ujN-x7bdnFIMLbShLT/view?usp=sharing)
+
 When this app is initialized, you will be greeted with a series of prompts. The answers you give to these prompts will be used to generate a markdown file with basic headers. Answer the prompts in the following manner:
 
 1. Enter a title for your app.
@@ -32,7 +34,7 @@ When this app is initialized, you will be greeted with a series of prompts. The 
 10. Enter the number of contributors that you would like to credit
 11. Once you have completed these steps, you will be prompted to fill out the number of sections that you described in steps 4, 5, and 10
 
-Once you answer all the prompts, a new README file will be generated in the root directory of the app.
+Once you answer all the prompts, a new README file will be generated in the root directory of the app. The name of this filed will be <project name>_README.md
 
 
 -------------------------------------------------------
