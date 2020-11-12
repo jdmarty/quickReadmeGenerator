@@ -3,7 +3,7 @@
 ## Links
 Repository: [https://github.com/jdmarty/READMEGenerator](https://github.com/jdmarty/READMEGenerator)
 
-![README Generator screenshot](https://github.com/jdmarty/READMEGenerator/blob/main/assets/terminal.PNG)
+![README Generator screenshot](https://github.com/jdmarty/quickReadmeGenerator/blob/main/assets/terminal.PNG)
 
 ## Description
 
